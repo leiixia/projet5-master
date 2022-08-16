@@ -1,0 +1,15 @@
+2022-08-13 11:42:36.284  INFO 12191 --- [main] f.l.o.project6.Project6Application       : Starting Project6Application using Java 17.0.1 on MacBook-Pro-de-Leixia.local with PID 12191 (/Users/Leixia/Desktop/projet5-master/target/classes started by Leixia in /Users/Leixia/Desktop/projet5-master)
+2022-08-13 11:42:36.286  INFO 12191 --- [main] f.l.o.project6.Project6Application       : No active profile set, falling back to 1 default profile: "default"
+2022-08-13 11:42:37.194  INFO 12191 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-08-13 11:42:37.203  INFO 12191 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-13 11:42:37.204  INFO 12191 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-08-13 11:42:37.278  INFO 12191 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-13 11:42:37.279  INFO 12191 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 942 ms
+2022-08-13 11:42:38.271  INFO 12191 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-08-13 11:42:38.282  INFO 12191 --- [main] f.l.o.project6.Project6Application       : Started Project6Application in 2.562 seconds (JVM running for 3.02)
+2022-08-13 11:46:00.125  INFO 12191 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-13 11:46:00.125  INFO 12191 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-13 11:46:00.126  INFO 12191 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-08-13 11:46:00.658  INFO 12191 --- [http-nio-8082-exec-7] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 240 ms
+2022-08-13 11:46:58.497  INFO 12191 --- [http-nio-8082-exec-9] f.l.o.p.controller.PersonController      : Entre dans la methode personInfo avec les parametres firstName: Jacob et lastName: Boyd
+2022-08-13 11:46:58.498  INFO 12191 --- [http-nio-8082-exec-9] f.l.opeclassrooms.project6.domain.Utils  : Entre dans la methode avec les parametres requis
